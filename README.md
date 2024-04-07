@@ -8,7 +8,9 @@ Before you begin:
     Download link: https://nodejs.org/en/download/
 3. Install latest version of Angular
     npm install -g @angular/cli
-
+4. Install bootstrap
+    npm i bootstrap@5.3.3
+    
 
 Start the  application
 0. install required npm dependencies
