@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-home',
+  selector: 'app-layout',
   standalone: true,
   imports: [],
   template: `
@@ -12,11 +12,9 @@ import { Component } from '@angular/core';
       <div><a href="/angular"><b>Angular</b></a></div>
       <div><a href="/comparsion"><b>Comparsion</b></a></div>
     </div>
-  </html>
-
-  `,
-  styleUrl: './home.component.css'
+  </html>  `,
+  styleUrl: './layout.component.css'
 })
-export class HomeComponent {
+export class LayoutComponent {
 
 }
