@@ -1,0 +1,77 @@
+/* angular-info.component.css */
+
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 40px;
+  background-color: #b3b2b2
+  /* background-color: #3eb489 */
+  ;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.heading {
+  color: #333;
+  font-size: 48px;
+  margin-bottom: 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.description {
+  color: #555;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.features {
+  margin-bottom: 50px;
+}
+
+.sub-heading {
+  color: #333;
+  font-size: 28px;
+  margin-bottom: 30px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.feature-list {
+  padding-left: 30px;
+}
+
+.feature-list li {
+  margin-bottom: 20px;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.footer {
+  text-align: center;
+}
+
+/* Animation */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.feature-list li {
+  animation: fadeInUp 0.5s ease forwards;
+  opacity: 0;
+}
+
+/* You can add more CSS styles to further customize the appearance */
+
+.body { background-color: #d8c5b4; }
+/* .body { background-color: #94dec3; } */
