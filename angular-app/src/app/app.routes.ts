@@ -3,6 +3,7 @@ import { AppComponent } from './app.component';
 import { AngularComponent } from './core/angular/angular.component';
 import { ComparsionComponent } from './core/comparsion/comparsion.component';
 import { LayoutComponent } from './core/layout/layout.component';
+import { PagenotfoundComponent } from './core/pagenotfound/pagenotfound.component';
 import { ReactComponent } from './core/react/react.component';
 import { HomeComponent } from './home/home.component';
 
@@ -46,4 +47,10 @@ export const routes: Routes = [
         loadComponent: () => ComparsionComponent,
         title: 'Angular vs React page'
     },
+    {
+        path: '**',
+        pathMatch: 'full',
+        loadComponent: () =>  PagenotfoundComponent,
+        title: '404 - Page Not Found'
+    }
 ];
