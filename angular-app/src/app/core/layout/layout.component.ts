@@ -5,6 +5,7 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [],
   template: `
+  <! --  this app-layout will be used in all pages for the header -->
   <html>
     <div class="navbar-layout">
       <div><a class="navbar-a" href="/home" ><b>Home</b></a></div>
