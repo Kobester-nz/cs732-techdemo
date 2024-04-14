@@ -16,8 +16,8 @@ This README file contains 6 main sections:
 
 
 # 1. Before you begin:
-0. Clone the code and navigate to angular-app folder for cs732 techdemo assignment:
-    cd angular-app
+0. Clone the code and navigate to cs732-techdemo/angular-app folder for cs732 techdemo assignment:
+    cd cs732-techdemo/angular-app
 1. Check node version: 
     node -v
 2. Install correct version of node.js for angular: 

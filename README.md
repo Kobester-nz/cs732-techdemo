@@ -16,8 +16,8 @@ This README file contains 6 main sections:
 
 
 # 1. Before you begin:
-0. Clone the code and navigate to angular-app folder for cs732 techdemo assignment:
-    cd angular-app
+0. Clone the code (can use GitHub link: https://github.com/Kobester-nz/cs732-techdemo) and navigate to cs732-techdemo/angular-app folder for cs732 techdemo assignment:
+    cd cs732-techdemo/angular-app
 1. Check node version: 
     node -v
 2. Install correct version of node.js for angular: 
@@ -32,8 +32,8 @@ This README file contains 6 main sections:
 
 
 # 2. To Start the Angular application
-0. Navigate to angular-app folder
-    cd angular-app
+0. Navigate to cs732-techdemo/angular-app folder
+    cd cs732-techdemo/angular-app
 1. Start the server
     ng serve
 2. Direct to local host home page:
