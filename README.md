@@ -62,11 +62,17 @@ Set up Amplify:
 ![AWS-Amplify-build](images/AWS-Amplify-build.png "AWS-Amplify-build")
 7. Deploy the application to AWS CDN (Content Delivery Network). On the Review page, confirm that your repository details are correct.
 
-8. Set up Pull request previews, Choose App settings, Previews and then choose Enable previews. In the Install GitHub App to enable previews window, choose Install GitHub app, Select the GitHub account where you want to configure the Amplify GitHub App. A page opens on Github.com to configure repository permissions for your account. To limit the installation to the specific repositories that you select, choose Only select repositories, and select 'cs732-techdemo'. Choose Save.
-![Git-Amplify](images/Git-Amplify.png "Git-Amplify")
-Therefore when new Pull request created, before merge into main branch, Amplify Pull Request will pick up and display in Preview as shown below.
-![AWS-Amplify-PR](images/AWS-Amplify-PR.png "AWS-Amplify-PR")
+8. Set up Pull request previews
 
+8.1. Choose App settings, Previews and then choose Enable previews. In the Install GitHub App to enable previews window, choose Install GitHub app, Select the GitHub account where you want to configure the Amplify GitHub App. A page opens on Github.com to configure repository permissions for your account. To limit the installation to the specific repositories that you select, choose Only select repositories, and select 'cs732-techdemo'. Choose Save.
+![Git-Amplify](images/Git-Amplify.png "Git-Amplify")
+8.2. Set up Pipeline in the Build settings
+![AWS-Amplify-Buil](images/AWS-Amplify-Buil.png "AWS-Amplify-Buil")
+
+8.3. Therefore when new Pull request created, before merge into main branch, Amplify Pull Request will pick up and display in Preview as shown below.
+![AWS-Amplify-PR](images/AWS-Amplify-PR.png "AWS-Amplify-PR")
+As shown here the Pipeline is built and deployed successfully.
+![AWS-Amplify-success](images/AWS-Amplify-success.png "AWS-Amplify-success")
 
 
 ![Alt text](images/AWS-SSO.png "AWS-SSO")
