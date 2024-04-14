@@ -64,6 +64,9 @@ Set up Amplify:
 
 8. Set up Pull request previews, Choose App settings, Previews and then choose Enable previews. In the Install GitHub App to enable previews window, choose Install GitHub app, Select the GitHub account where you want to configure the Amplify GitHub App. A page opens on Github.com to configure repository permissions for your account. To limit the installation to the specific repositories that you select, choose Only select repositories, and select 'cs732-techdemo'. Choose Save.
 ![Git-Amplify](images/Git-Amplify.png "Git-Amplify")
+Therefore when new Pull request created, before merge into main branch, Amplify Pull Request will pick up and display in Preview as shown below.
+![AWS-Amplify-PR](images/AWS-Amplify-PR.png "AWS-Amplify-PR")
+
 
 
 ![Alt text](images/AWS-SSO.png "AWS-SSO")
