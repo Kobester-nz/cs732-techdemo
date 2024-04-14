@@ -1,49 +1,62 @@
 # cs732 assignment
-This is for cs732 assignment tech demo, the topic of this assignment is to illustrate the feasures of Angular, React and make comparisons with Angular, on top of that covered in depth on integratoin with Amazon Web Services (AWS) reached and developed the solution that the repository is deployed on AWS Amplify for application deployment, CI/CD and mornitoring. The solution also leveraged Bootstrap for css styling. 
+This is for cs732 assignment tech demo, the topic of this assignment is to illustrate the feasures of Angular, React and make comparisons with Angular, on top of that covered in depth on integratoin with Amazon Web Services (AWS) reached and developed the solution that the repository is deployed on AWS Amplify for application deployment, CI/CD and mornitoring. The solution also leveraged Bootstrap for css styling. Used GitHub for Source control including branch management, PR integration with AWS, etc. The code is quite self-explanatory but I added some necessary comments. Happy hacking!
 ![Tools](images/Tools.png "Tools")
-![app-home](images/app-home.png "app-home")
 
 
 # Description:
 
-This README file contains 4 main sections. First part is check if you have required environment settings. Second part is to start the Angular application. Third part is Create AWS accounts and Users. Forth part is to Set up AWS Amplify, integration with GitHub and configure the code CICD pipeline, Build and Deploy the application on AWS environment. 
+This README file contains 6 main sections:
+ 1. 1st is check if you have required environment settings. 
+ 2. 2nd part is to start the Angular application. 
+ 3. 3rd part is Create AWS accounts and AWS Identity Centre Users. 
+ 4. 4th part is to Set up AWS Amplify, integration with GitHub and configure the code CICD pipeline, Build and Deploy the application on AWS environment. 
+ 5. 5th part is showcasing the GitHub repository configuration and DevOps practices. 
+ 6. 6th part is references of documentation I have used. 
+ 7. Last but not least, the 7th part is my conclusion of this assignment. 
 
-# Before you begin:
-0. Navigate to angular-app folder for cs732 techdemo assignment.
+
+# 1. Before you begin:
+0. Clone the code and navigate to angular-app folder for cs732 techdemo assignment:
     cd angular-app
-1. Check node version
+1. Check node version: 
     node -v
-2. Install correct version of node.js for angular
+2. Install correct version of node.js for angular: 
     Download link: https://nodejs.org/en/download/
-3. Install latest version of Angular
+3. Install latest version of Angular: 
     npm install -g @angular/cli
-4. Install bootstrap
+4. Install bootstrap: 
     npm i bootstrap@5.3.3
-5. install required npm dependencies
+5. install required npm dependencies: 
     npm install
    
 
 
-# To Start the  application
+# 2. To Start the Angular application
 0. Navigate to angular-app folder
     cd angular-app
 1. Start the server
     ng serve
 2. Direct to local host home page:
     http://localhost:4200/home
+    ![app-home](images/app-home.png "app-home")
 3. Direct to local host Angular page:
     http://localhost:4200/angular
+    ![app-angular](images/app-angular.png "app-angular")
 3. Direct to local host React page:
     http://localhost:4200/react
+    ![app-react](images/app-react.png "app-react")
 3. Direct to local host React vs Angular page:
     http://localhost:4200/comparsion
-
+    ![app-comparsion](images/app-comparsion.png "app-comparsion")
+4. For any page that's not exist in router, navigate to 404 error page:
+    eg. http://localhost:4200/error
+    ![app-error](images/app-error.png "app-error")
 
 
 
 
  
-# Set up AWS Account for AWS Amplify:
+# 3. Set up AWS Account for AWS Amplify:
 1. Create an AWS Account 
 2. Navigate to Account Settings, which you should be logged in as management account. 
 3. Go to AWS Organizations -> AWS Accounts.
@@ -61,7 +74,7 @@ This README file contains 4 main sections. First part is check if you have requi
 ![AWS-SSO](images/AWS-SSO.png "AWS-SSO")
 
 
-# Set up Amplify:
+# 4. Set up AWS Amplify:
 
 0. Make sure Git repo, Anguar app and AWS account set up properly
 1. Open Amplify console on AWS 'dev' account
@@ -86,18 +99,21 @@ As shown here the Pipeline is built and deployed successfully.
 ![AWS-Monitoring](images/AWS-Monitoring.png "AWS-Monitoring")
 
 
-# GitHub
+# 5. GitHub
 1. GitHub page, the home page of the assigment. Link: https://github.com/Kobester-nz/cs732-techdemo
 ![Git-Hub](images/Git-Hub.png "Git-Hub")
 2. Application branch - Have main and dev and followed good practice of deparating the main branch and development branch  
 ![Git-Branch](images/Git-Branch.png "Git-Branch")
 3. Commits, adding tags to make deparate commits purposes, eg. 'feat' means feature commit and 'fix' means fix commit
 ![Git-Commit](images/Git-Commit.png "Git-Commit")
+4. Before the Pull Request Merge, AWS Amplify and GitHub will check if the code is good to be merged into the main branch.
+![Git-Merge-Check](images/Git-Merge-Check.png "Git-Merge-Check")
 
-4. Pull Requests, have made sure application is working perfectly fine before merge to the main branch, carefully checked the differences, etc and peer-review with myself 
+5. Pull Requests, have made sure application is working perfectly fine before merge to the main branch, carefully checked the differences, etc and peer-review with myself. 
+![Git-PR](images/Git-Commit.png "Git-PR")
 
 
-# More Documentation:
+# 6. More Documentation:
 1. Amplify Documentation:
 https://aws.amazon.com/amplify/?gclid=Cj0KCQjw2uiwBhCXARIsACMvIU2wEOL2KhtJrWfDqBipei2emecwCiUepAB0Wpt0ZrwT8Hg9A-xVi4QaAj7GEALw_wcB&trk=eeb323c0-b1c5-47b2-820a-ad0189f77c2c&sc_channel=ps&ef_id=Cj0KCQjw2uiwBhCXARIsACMvIU2wEOL2KhtJrWfDqBipei2emecwCiUepAB0Wpt0ZrwT8Hg9A-xVi4QaAj7GEALw_wcB:G:s&s_kwcid=AL!4422!3!647374792061!e!!g!!aws%20amplify!19613643828!149167002121
 
@@ -121,3 +137,7 @@ https://docs.github.com/en/get-started/using-github/github-flow
 
 8. AWS Cloud Watch Documentation:
 https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/cloudwatch_architecture.html
+
+
+# 7. Conclusions:
+For this assignment, I have spent well over 80 hours on this tech demo to learn about Angular, GitHub bootstrap and especially AWS and AWS Amplify. I have learned so much about all the different and how they integrate with each other, have been through a lot of debugging and some bugs even became a new features!!! I really enjoyed the experience of doing this assignment. If you read through this far, thank you very much and hope all the best to you! 
