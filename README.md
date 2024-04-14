@@ -25,10 +25,17 @@ Before you begin:
 To Start the  application
 0. Navigate to angular-app folder
     cd angular-app
-1. start the server
+1. Start the server
     ng serve
-2. direct to local host 
+2. Direct to local host home page:
     http://localhost:4200/home
+3. Direct to local host Angular page:
+    http://localhost:4200/angular
+3. Direct to local host React page:
+    http://localhost:4200/react
+3. Direct to local host React vs Angular page:
+    http://localhost:4200/comparsion
+
 
 
 
@@ -44,12 +51,12 @@ Set up AWS Account for AWS Amplify:
 7. After Identity Centre is enabled, select Dashboard -> Users
 8. Create a new user (your name), then add the user into the new account 'dev'
 9. Then log in as the new user (your name) to complete the registration.
-![Alt text](images/AWS-IAM.png "AWS-IAM")
+![AWS-IAM](images/AWS-IAM.png "AWS-IAM")
 10. In management account, Navigate to Organizations -> AWS accounts -> Invitations -> Invite AWS Account. 
-![Alt text](images/AWS-Org.png "AWS-Org")
+![AWS-Org](images/AWS-Org.png "AWS-Org")
 11. Add the new user (your name) to the 'dev' account, and create group (admin) with Admin permission then add the new user into this group. 
 12. SSO will be automatically enabled now if you log in to 'dev' account, Click on AdministratorAccess link and you will be directed to AWS console. 
-![Alt text](images/AWS-SSO.png "AWS-SSO")
+![AWS-SSO](images/AWS-SSO.png "AWS-SSO")
 
 Set up Amplify:
 0. Make sure Git repo, Anguar app and AWS account set up properly
@@ -62,7 +69,7 @@ Set up Amplify:
 ![AWS-Amplify-build](images/AWS-Amplify-build.png "AWS-Amplify-build")
 7. Deploy the application to AWS CDN (Content Delivery Network). On the Review page, confirm that your repository details are correct.
 
-8. Set up Pull request previews
+8. Set up CICD Pipelines for Pull request previews
 
 8.1. Choose App settings, Previews and then choose Enable previews. In the Install GitHub App to enable previews window, choose Install GitHub app, Select the GitHub account where you want to configure the Amplify GitHub App. A page opens on Github.com to configure repository permissions for your account. To limit the installation to the specific repositories that you select, choose Only select repositories, and select 'cs732-techdemo'. Choose Save.
 ![Git-Amplify](images/Git-Amplify.png "Git-Amplify")
