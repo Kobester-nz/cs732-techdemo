@@ -16,7 +16,8 @@ import { LayoutComponent } from '../layout/layout.component';
         <img src="assets/images/react.png" height="30%" width="30%"  alt="...">
         <p class="description">React is an open-source JavaScript library developed and maintained by Facebook and a community of developers. It is primarily used for building user interfaces (UIs) for web applications. React is known for its efficiency, flexibility, and declarative approach to building UIs.</p>
       </div>
-      
+
+      <! --   this is listing the key features of React -->
       <div class="features">
         <h2 class="sub-heading">Key Features of React:</h2>
         <ul class="feature-list">
@@ -39,7 +40,7 @@ import { LayoutComponent } from '../layout/layout.component';
         <br/>
       </div>
 
-
+      <! --   this is listing the Programmatic features of React -->
       <h4> React key programmatic features: </h4>
       <br/>
       <div class="list-group">
@@ -61,6 +62,7 @@ import { LayoutComponent } from '../layout/layout.component';
       </div>
       <br/>
 
+      <! --   this is listing the differences between react and react-dom -->
       <h4> React VS. React Native </h4>
       <h5> React </h5>
       <p class="section-content">
@@ -78,12 +80,9 @@ import { LayoutComponent } from '../layout/layout.component';
       </p>
       <br/>
       <p> Happy hacking !!!</p>
-
-      
     </div>
-
   <br/>
-  </div>
+</div>
     `,
   styleUrl: './react.component.css'
 })

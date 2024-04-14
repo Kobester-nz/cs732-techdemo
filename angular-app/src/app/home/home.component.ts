@@ -9,9 +9,8 @@ import * as bootstrap from 'bootstrap';
   imports: [LayoutComponent],
   template: ` 
   <div class="body">
-    
+  <! --  import app-layout for the header -->
     <app-layout/>
-
     <div class="row row-cols-1 row-cols-md-3 g-4">
       <div class="col">
         <div class="card h-90" style="margin-left: 40%; margin-top:20%;">
@@ -35,7 +34,6 @@ import * as bootstrap from 'bootstrap';
             <br/>
             <br/>
             <br/>
-
             <a href="/comparsion" class="btn btn-primary">Let's compare</a>
           </div>
         </div>

@@ -7,18 +7,15 @@ import { LayoutComponent } from '../layout/layout.component';
   imports: [LayoutComponent],
   template: `
   <div class="body">
-
     <app-layout/>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    
-
     <div class="container" >
       <div class="header">
         <h1 class="heading">What is Angular?</h1>
         <img src="assets/images/angular.png" height="30%" width="30%"  alt="...">
         <p class="description">Angular is a popular open-source web application framework maintained by Google and a community of developers. It's used to build single-page client-side web applications, where the entire page doesn't reload during use. Instead, Angular dynamically updates the page as the user interacts with it.</p>
       </div>
-      
+      <! --  this is listing the key features of Angular -->
       <div class="features">
         <h2 class="sub-heading"> <strong>Key Features of Angular: </strong></h2>
         <ul class="feature-list">
@@ -32,6 +29,8 @@ import { LayoutComponent } from '../layout/layout.component';
           <li><strong>Forms:</strong> Angular provides features for building and validating forms.</li>
         </ul>
         <br />
+        
+        <! --  This list where to starat in Angular -->
         <h2 class="sub-heading"> <strong> Before get started: </strong></h2>
         <h4> Knowledge check: </h4>
         <ul class="feature-list">
@@ -56,6 +55,8 @@ import { LayoutComponent } from '../layout/layout.component';
         <h2 class="sub-heading"> <strong> Angular Templates: </strong></h2>
         <h5> In Angular, a template is a blueprint for a fragment of a user interface (UI). Templates are written in HTML, and special syntax can be used within a template to build on many of Angular's features.        </h5>
         <br/>
+
+        <! --   This list where the Syntax starts: -->
         <h4> Tempate Syntax: </h4>
         <p> #Feel free to click on below links for more information on Angular official website</p>
         <div class="list-group">
@@ -88,17 +89,9 @@ import { LayoutComponent } from '../layout/layout.component';
       <p>When you develop a smaller part of your system, like a module or a class, you may need to use features from other classes. For example, you may need an HTTP service to make backend calls. Dependency Injection, or DI, is a design pattern and mechanism for creating and delivering some parts of an application to other parts of an application that require them. Angular supports this design pattern and you can use it in your applications to increase flexibility and modularity. </p>
       <p>In Angular, dependencies are typically services, but they also can be values, such as strings or functions. An injector for an application (created automatically during bootstrap) instantiates dependencies when needed, using a configured provider of the service or value. </p>
       <br/>
-
-
       <br/>
       <p> Happy hacking !!!</p>
-
-
-
-
       </div>
-
-    
     </div>
     <br/>
   </div>
